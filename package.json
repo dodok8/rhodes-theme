@@ -20,7 +20,7 @@
       {
         "label": "Rhodes Light",
         "uiTheme": "vs",
-        "path": "./themes/min-light.json"
+        "path": "./themes/light.json"
       }
     ]
   },
