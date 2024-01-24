@@ -1,7 +1,7 @@
 {
   "name": "rhodes",
   "displayName": "Rhodes Theme",
-  "description": "A minimal theme that comes in dark and light.",
+  "description": "An Arknights inspired theme for Visual Studio Code",
   "version": "0.8.0",
   "publisher": "gaebalgom",
   "repository": {
