@@ -6,7 +6,7 @@
   "publisher": "gaebalgom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/misolori/min-theme.git"
+    "url": "https://github.com/dodok8/rhodes-theme.git"
   },
   "engines": {
     "vscode": "^1.25.0"
