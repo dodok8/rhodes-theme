@@ -303,5 +303,6 @@
         "foreground": "#46ABAB"
       }
     }
-  ]
+  ],
+  "semanticHighlighting": true
 }
