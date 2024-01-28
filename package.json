@@ -2,7 +2,7 @@
   "name": "rhodes",
   "displayName": "Rhodes Theme",
   "description": "An Arknights inspired theme for Visual Studio Code",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "publisher": "gaebalgom",
   "repository": {
     "type": "git",
@@ -20,6 +20,11 @@
         "label": "Rhodes Light",
         "uiTheme": "vs",
         "path": "./themes/light.json"
+      },
+      {
+        "label": "Rhodes Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
       }
     ]
   },
