@@ -23,7 +23,7 @@
     "editorLineNumber.activeForeground": "#241E1F",
     "editorLineNumber.foreground": "#CCCCCC",
     "editorInlayHint.foreground": "#757575",
-    "editorInlayHint.background" : "#75757500",
+    "editorInlayHint.background": "#75757500",
     "editorSuggestWidget.background": "#F3F3F3",
     "extensionButton.prominentBackground": "#000000AA",
     "extensionButton.prominentHoverBackground": "#000000BB",
