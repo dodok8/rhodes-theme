@@ -50,7 +50,7 @@
     "inputOption.activeBackground": "#EDEDED",
     "list.activeSelectionBackground": "#EEEEEE",
     "list.activeSelectionForeground": "#212121",
-    "list.focusBackground": "#ddd",
+    "list.focusBackground": "#DDDDDD",
     "list.focusForeground": "#212121",
     "list.highlightForeground": "#212121",
     "list.inactiveSelectionBackground": "#E0E0E0",
