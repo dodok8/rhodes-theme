@@ -1,8 +1,8 @@
 {
-  "name": "Min Light",
+  "name": "Rhodes Light",
   "type": "light",
   "colors": {
-    "activityBar.background": "#F4F4F4",
+    "activityBar.background": "#FDFDFD",
     "activityBar.foreground": "#46ABAB",
     "activityBar.inactiveForeground": "#212121",
     "activityBarBadge.foreground": "#FDFDFD",
