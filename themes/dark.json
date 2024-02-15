@@ -61,7 +61,7 @@
     "pickerGroup.foreground": "#EAEAEA",
     "progressBar.background": "#FAFAFA",
     "scrollbar.shadow": "#1F1F1F",
-    "sideBar.background": "#1A1A1A",
+    "sideBar.background": "#212121",
     "sideBarSectionHeader.background": "#202020",
     "statusBar.background": "#1A1A1A",
     "statusBar.debuggingBackground": "#1A1A1A",
