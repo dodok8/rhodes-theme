@@ -5,27 +5,28 @@
     "activityBar.background": "#1A1A1A",
     "activityBar.foreground": "#46ABAB",
     "activityBar.inactiveForeground": "#7D7D7D",
-    "activityBarBadge.foreground": "#FDFDFD",
     "activityBarBadge.background": "#46ABAB",
+    "activityBarBadge.foreground": "#FDFDFD",
     "badge.background": "#46ABAB",
     "badge.foreground": "#FDFDFD",
     "button.background": "#437D7D",
     "button.hoverBackground": "#46ABAB",
-    "debugIcon.breakpointCurrentStackframeForeground": "#58AE79",
+    "debugIcon.breakpointCurrentStackframeForeground": "#79b8ff",
     "debugIcon.breakpointDisabledForeground": "#848484",
-    "debugIcon.breakpointForeground": "#46ABAB",
-    "debugIcon.breakpointStackframeForeground": "#58AE79",
-    "debugIcon.continueForeground": "#E17375",
-    "debugIcon.disconnectForeground": "#E17375",
-    "debugIcon.pauseForeground": "#E17375",
-    "debugIcon.restartForeground": "#58AE79",
-    "debugIcon.startForeground": "#58AE79",
-    "debugIcon.stepBackForeground": "#E17375",
-    "debugIcon.stepIntoForeground": "#E17375",
-    "debugIcon.stepOutForeground": "#E17375",
-    "debugIcon.stepOverForeground": "#E17375",
-    "debugIcon.stopForeground": "#58AE79",
-    "diffEditor.insertedTextBackground": "#3A632A4B",
+    "debugIcon.breakpointForeground": "#FF7A84",
+    "debugIcon.breakpointStackframeForeground": "#79b8ff",
+    "debugIcon.breakpointUnverifiedForeground": "#848484",
+    "debugIcon.continueForeground": "#FF7A84",
+    "debugIcon.disconnectForeground": "#FF7A84",
+    "debugIcon.pauseForeground": "#FF7A84",
+    "debugIcon.restartForeground": "#79b8ff",
+    "debugIcon.startForeground": "#79b8ff",
+    "debugIcon.stepBackForeground": "#FF7A84",
+    "debugIcon.stepIntoForeground": "#FF7A84",
+    "debugIcon.stepOutForeground": "#FF7A84",
+    "debugIcon.stepOverForeground": "#FF7A84",
+    "debugIcon.stopForeground": "#79b8ff",
+    "diffEditor.insertedTextBackground": "#3a632a4b",
     "diffEditor.removedTextBackground": "#88063852",
     "editor.background": "#1A1A1A",
     "editor.foreground": "#FDFDFD",
@@ -38,6 +39,7 @@
     "editorRuler.foreground": "#2A2A2A",
     "editorSuggestWidget.background": "#1A1A1A",
     "focusBorder": "#444444",
+    "foreground": "#888888",
     "gitDecoration.ignoredResourceForeground": "#444444",
     "input.background": "#2A2A2A",
     "input.foreground": "#E0E0E0",
@@ -50,16 +52,16 @@
     "list.hoverForeground": "#9E9E9E",
     "list.inactiveSelectionBackground": "#212121",
     "list.inactiveSelectionForeground": "#F5F5F5",
-    "panelTitle.activeBorder": "#1F1F1F",
+    "panelTitle.activeBorder": "#1f1f1f",
     "panelTitle.activeForeground": "#FAFAFA",
     "panelTitle.inactiveForeground": "#484848",
-    "peekView.border": "#444444",
+    "peekView.border": "#444",
     "peekViewEditor.background": "#242424",
     "pickerGroup.border": "#363636",
     "pickerGroup.foreground": "#EAEAEA",
     "progressBar.background": "#FAFAFA",
-    "scrollbar.shadow": "#1f1f1f",
-    "sideBar.background": "#241E1F",
+    "scrollbar.shadow": "#1F1F1F",
+    "sideBar.background": "#1A1A1A",
     "sideBarSectionHeader.background": "#202020",
     "statusBar.background": "#1A1A1A",
     "statusBar.debuggingBackground": "#1A1A1A",
@@ -84,7 +86,7 @@
     "tab.inactiveBackground": "#1A1A1A",
     "tab.inactiveForeground": "#727272",
     "terminal.ansiBrightBlack": "#5c5c5c",
-    "terminal.ansiBlack": "#F",
+    "terminal.ansiBlack": "#FFFFFF",
     "terminal.ansiBlue": "#51A1D5",
     "terminal.ansiBrightBlue": "#78bcea",
     "terminal.ansiBrightCyan": "#5ac7c7",
@@ -112,6 +114,7 @@
     },
     {
       "scope": [
+        "support.function",
         "keyword.operator.accessor",
         "meta.group.braces.round.function.arguments",
         "meta.template.expression",
@@ -119,6 +122,12 @@
       ],
       "settings": {
         "foreground": "#FDFDFD"
+      }
+    },
+    {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -149,22 +158,35 @@
     {
       "scope": ["comment", "string.quoted.docstring.multi"],
       "settings": {
-        "foreground": "#757575"
+        "foreground": "#6b737c"
       }
     },
     {
       "scope": [
-        "constant.numeric",
         "constant.language",
-        "constant.other.placeholder",
-        "constant.character.format.placeholder",
         "variable.language.this",
         "variable.other.object",
         "variable.other.class",
         "variable.other.constant",
         "meta.property-name",
+        "support",
+        "string.other.link.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#79b8ff"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.other.placeholder",
+        "constant.character.format.placeholder",
         "meta.property-value",
-        "support"
+        "keyword.other.unit",
+        "keyword.other.template",
+        "entity.name.tag.yaml",
+        "entity.other.attribute-name",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#58AE79"
@@ -247,12 +269,6 @@
       }
     },
     {
-      "scope": ["strong", "markup.heading.markdown", "markup.bold.markdown"],
-      "settings": {
-        "foreground": "#D56EC1"
-      }
-    },
-    {
       "scope": [
         "punctuation.definition.arguments",
         "punctuation.definition.dict",
@@ -265,10 +281,7 @@
     },
     {
       "name": "[Custom] Markdown links",
-      "scope": [
-        "markup.underline.link",
-        "punctuation.definition.metadata.markdown"
-      ],
+      "scope": "markup.underline.link",
       "settings": {
         "foreground": "#51A1D5"
       }
@@ -281,12 +294,17 @@
       }
     },
     {
+      "name": "[Custom] Markdown punctuation definition",
+      "scope": "punctuation.definition.metadata.markdown",
+      "settings": {
+        "foreground": "#CAC645"
+      }
+    },
+    {
       "name": "[Custom] Markdown punctuation definition brackets",
       "scope": [
         "punctuation.definition.string.begin.markdown",
-        "punctuation.definition.string.end.markdown",
-        "string.other.link.title.markdown",
-        "string.other.link.description.markdown"
+        "punctuation.definition.string.end.markdown"
       ],
       "settings": {
         "foreground": "#46ABAB"
